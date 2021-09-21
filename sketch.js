@@ -70,10 +70,20 @@ function draw() {
   
   playerArcher.display();
   computerArcher.display()
-  arrow.display()
-  if(keyCode === 32){
-   arrow.shoot(playerArcher.body.angle);
-  }
+  
+  // if(keyCode === 32){
+  //   arrow.display()
+  //   arrow.shoot(playerArcher);
+  //  }
+
+  //  if(keyCode === 32){
+  //   arrow.shoot(playerArcher.body.angle);
+  //  }
+   
+  //  if(keyCode === 32){
+  //   arrow.display()
+  //   arrow.shoot(playerArcher.body.angle);
+  //  }
 }
 
 
